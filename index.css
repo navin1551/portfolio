@@ -2,10 +2,16 @@
     box-sizing: border-box;
 }
 
-body {
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body {
     text-align: center;
     font-size: 20px;
 }
+
+
 
 nav, footer {
     background-color: darkgray;
@@ -18,8 +24,13 @@ nav {
     right: 0;
     top: 0;
     z-index: 10;
-    text-align: center;
+    text-align: right;
+    border-bottom: 1px solid gray;
+    height: 70px;
+    line-height: 70px;
 }
+
+
 
 section {
     margin-top: 5px;
@@ -143,7 +154,7 @@ ul > li {
 
     nav,
     footer {
-        padding: 2% 0;
+        padding: 1% 0;
     }
     .headline > span {
         font-size: 45px;
