@@ -9,6 +9,7 @@ body {
 
 nav, footer {
     background-color: darkgray;
+    padding: 1% 0;
 }
 
 nav {
@@ -47,8 +48,8 @@ header {
 
 
 .opening-page {
-    width: 275px;
-    height: 175px;
+    width: 300px;
+    height: 200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -56,8 +57,8 @@ header {
 }
 
 .questions-page {
-    width: 275px;
-    height: 175px;
+    width: 300px;
+    height: 200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -65,8 +66,8 @@ header {
 }
 
 .big-ben-feedback {
-    width: 275px;
-    height: 175px;
+    width: 300px;
+    height: 200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -90,6 +91,89 @@ ul > li {
     text-align:start;
 }
 
-#portfolio-section > span {
+#portfolio-section > h2 {
     font-size: 40px;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    nav,
+    footer {
+        padding: 1% 0;
+    }
+
+    .headline {
+        margin-top: 30px;
+    }
+
+    .headline > span {
+        font-size: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+    }
+
+    .navin {
+        width: 225px;
+        height: 225px;
+    }
+
+    #portfolio-section > h2 {
+        font-size: 80px;
+    }
+
+    .opening-page {
+        width: 475px;
+        height: 350px;
+    }
+    
+    .questions-page {
+        width: 475px;
+        height: 350px;
+    }
+    
+    .big-ben-feedback {
+        width: 475px;
+        height: 350px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    nav,
+    footer {
+        padding: 2% 0;
+    }
+    .headline > span {
+        font-size: 45px;
+    }
+
+    #bio-section > p {
+        font-size: 30px;
+    }
+
+    #portfolio-section > h2 {
+        font-size: 100px;
+    }
+
+    .opening-page {
+        width: 750px;
+        height: 500px;
+    }
+    
+    .questions-page {
+        width: 750px;
+        height: 500px;
+    }
+    
+    .big-ben-feedback {
+        width: 750px;
+        height: 500px;
+    }
+
+    ul > li {
+        font-size: 25px;
+        text-align:start;
+    }
 }
