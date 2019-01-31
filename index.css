@@ -8,26 +8,24 @@ html {
 
 html,body {
     text-align: center;
-    font-size: 20px;
 }
 
+.menu a {
+    display: none;
+}
 
-
-nav, footer {
+.nav, footer {
     background-color: darkgray;
     padding: 1% 0;
 }
 
-nav {
+.nav {
     position: fixed;    
     left: 0;
     right: 0;
     top: 0;
     z-index: 10;
     text-align: right;
-    border-bottom: 1px solid gray;
-    height: 70px;
-    line-height: 70px;
 }
 
 
@@ -106,10 +104,21 @@ ul > li {
     font-size: 40px;
 }
 
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer > span {
+    font-size: 10px;
+    margin: 0 15px;
+    color: navy;
+}
 
 @media screen and (min-width: 768px) {
 
-    nav,
+    .nav,
     footer {
         padding: 1% 0;
     }
@@ -118,7 +127,11 @@ ul > li {
         margin-top: 30px;
     }
 
-    .headline > span {
+    .headline > h1 {
+        font-size: 20px;
+    }
+
+    .headline > h2 {
         font-size: 30px;
         margin-left: 10px;
         margin-right: 10px;
@@ -148,16 +161,22 @@ ul > li {
         width: 475px;
         height: 350px;
     }
+
+    footer > span {
+        font-size: 18px;
+        margin: 0 15px;
+        color: navy;
+    }
 }
 
 @media screen and (min-width: 1024px) {
 
-    nav,
+    .nav,
     footer {
         padding: 1% 0;
     }
-    .headline > span {
-        font-size: 45px;
+    .headline > h1 {
+        font-size: 40px;
     }
 
     #bio-section > p {
@@ -186,5 +205,29 @@ ul > li {
     ul > li {
         font-size: 25px;
         text-align:start;
+    }
+
+    #toggle,
+    label {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .menu a {
+        display: block;
+        text-decoration: none;
+        margin: 0 10px;
+        color: maroon;
+    }
+    
+   
+    footer > span {
+        font-size: 18px;
+        margin: 0 25px;
+        color: navy;
     }
 }
