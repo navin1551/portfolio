@@ -199,11 +199,12 @@ footer > span {
 }
 
 @media screen and (min-width: 1024px) {
-
+    
     .nav,
     footer {
         padding: 1% 0;
     }
+    
     .headline > h1 {
         font-size: 40px;
         line-height: 70px;
