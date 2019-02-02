@@ -130,7 +130,7 @@ footer {
 }
 
 footer > span {
-    font-size: 12px;
+    font-size: 15px;
     margin: 0 15px;
     color: navy;
     font-weight: bolder;
@@ -264,7 +264,7 @@ footer > span {
     
    
     footer > span {
-        font-size: 17px;
+        font-size: 20px;
         margin: 0 25px;
         font-weight: bolder;
     }
