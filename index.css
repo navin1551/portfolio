@@ -132,7 +132,8 @@ footer {
 footer > span {
     font-size: 12px;
     margin: 0 15px;
-    color: maroon;
+    color: navy;
+    font-weight: bolder;
 }
 
 @media screen and (min-width: 768px) {
@@ -191,6 +192,7 @@ footer > span {
     footer > span {
         font-size: 18px;
         margin: 0 15px;
+        font-weight: bolder;
     }
 
     ul > li {
@@ -264,5 +266,5 @@ footer > span {
     footer > span {
         font-size: 17px;
         margin: 0 25px;
+        font-weight: bolder;
     }
-}
