@@ -153,6 +153,11 @@ ul > li {
     line-height: 19px;
 }
 
+a {
+    color: lightblue;
+    text-decoration: none;
+}
+
 #portfolio-section > h2 {
     font-size: 40px;
     font-family: 'KoHo', sans-serif;
