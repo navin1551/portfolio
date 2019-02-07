@@ -46,7 +46,7 @@ html,body {
     display: block;
     margin: 0;
     text-align: center;
-    color: maroon;
+    color: lightblue;
 }
 
 #toggle:checked + .menu {
@@ -154,7 +154,7 @@ ul > li {
 }
 
 a {
-    color: lightblue;
+    color:lightblue;
     text-decoration: none;
 }
 
@@ -166,16 +166,14 @@ a {
 
 footer {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-footer > span {
-    font-size: 12px;
-    margin-bottom: 0 20px;
-    color: lightblue;
-    font-weight: bolder;
-    line-height: 26px;
+.contact-logo {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
 }
 
 @media screen and (min-width: 768px) {
@@ -235,10 +233,9 @@ footer > span {
         height: 350px;
     }
 
-    footer > span {
-        font-size: 13px;
-        margin: 0 15px;
-        font-weight: bolder;
+    .contact-logo {
+        width: 35px;
+        height: 35px;
     }
 
     ul > li {
@@ -305,15 +302,13 @@ footer > span {
         font-size: 16px;
         text-decoration: none;
         margin: 0 10px;
-        color:maroon;
+        color: lightblue;
     }
     
    
-    footer > span {
-        font-size: 18px;
-        margin: 0 25px;
-        font-weight: bolder;
-        line-height: 30px;
+    .contact-logo {
+        width: 45px;
+        height: 45px;
     }
 
     .image {
