@@ -1,269 +1,265 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    font-family: 'Nanum Gothic', sans-serif;
-    background-image: url(https://www.econcepts.ie/wp-content/uploads/2016/04/bp_background_2_blue1.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    color: white;
+  font-family: "Nanum Gothic", sans-serif;
+  background-image: url(https://www.econcepts.ie/wp-content/uploads/2016/04/bp_background_2_blue1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
 }
 
-html,body {
-    text-align: center;
-    /*width: 100%;
+html,
+body {
+  text-align: center;
+  /*width: 100%;
     height: 100%;*/
 }
 
 .menu a {
-    display: none;
+  display: none;
 }
 
-.nav, footer {
-    padding: 0;
+.nav,
+footer {
+  padding: 0;
 }
 
 .nav {
-    position: fixed;    
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: 10;
-    text-align: right;
-    height: 70px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 10;
+  text-align: right;
+  height: 70px;
 }
 
 .menu {
-    margin: 0 30px 0 0;
-    display: none;
+  margin: 0 30px 0 0;
+  display: none;
 }
 
-
 .menu a {
-    display: block;
-    margin: 0;
-    text-align: center;
-    color: lightblue;
+  display: block;
+  margin: 0;
+  text-align: center;
+  color: lightblue;
 }
 
 #toggle:checked + .menu {
-    display: block;
+  display: block;
 }
 
 label {
-    margin: 0 5px 0 0;
-    font-size: 26px;
-    cursor: pointer;
+  margin: 0 5px 0 0;
+  font-size: 26px;
+  cursor: pointer;
 }
 
 #toggle {
-    display: none;
+  display: none;
 }
 
 .headline h1 {
-    font-size: 18px;
-    line-height: 27px;
+  font-size: 18px;
+  line-height: 27px;
 }
 
 section {
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
 header {
-    padding: 100px 0;
+  padding: 100px 0;
 }
 
 .navin {
-    border-radius: 50%;
-    margin-top: 30px;
-    width: 175px;
-    height: 175px;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    position: relative;
-    top: 25px;
-    opacity: 0.5;
+  border-radius: 50%;
+  margin-top: 30px;
+  width: 175px;
+  height: 175px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  top: 25px;
+  opacity: 0.5;
 }
 
 #bio-section {
-    margin-top: 10px;
-    margin-right: 5px;
-    margin-left: 5px;
-
+  margin-top: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 #bio-section > p {
-    text-align: left;
-    font-size: 16px;
-    line-height: 22px;
+  text-align: left;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .image {
-    border: 3px solid lightblue;
-    width: 300px;
-    height: 200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
+  border: 1px ridge lightblue;
+  width: 300px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
 }
 
 #portfolio-section {
-    margin: 250px 0 30px 0;
+  margin: 250px 0 30px 0;
 }
 
 footer {
-    margin-top: 150px;
-    position: relative;
-    bottom: 0;
-    left: 0;
-    right: 0;
+  margin-top: 150px;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 ul > li {
-    font-size: 15px;
-    text-align:start;
-    line-height: 19px;
+  font-size: 15px;
+  text-align: start;
+  line-height: 19px;
 }
 
 a {
-    color:lightblue;
-    text-decoration: none;
+  color: lightblue;
+  text-decoration: none;
 }
 
 #portfolio-section > h2 {
-    font-size: 40px;
-    font-family: 'KoHo', sans-serif;
-    margin-bottom: 100px;
+  font-size: 40px;
+  font-family: "KoHo", sans-serif;
+  margin-bottom: 100px;
 }
 
 footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .contact-logo {
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
 }
 
 @media screen and (min-width: 768px) {
+  .nav,
+  footer {
+    padding: 0;
+  }
 
-    .nav,
-    footer {
-        padding: 0;
-    }
+  .headline {
+    margin-top: 30px;
+  }
 
-    .headline {
-        margin-top: 30px;
-    }
+  .headline > h1 {
+    font-size: 23px;
+    line-height: 45px;
+  }
 
-    .headline > h1 {
-        font-size: 23px;
-        line-height: 45px;
-    }
+  .headline > h2 {
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+  }
 
-    .headline > h2 {
-        font-size: 30px;
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-top: 20px;
-    }
+  .navin {
+    width: 225px;
+    height: 225px;
+  }
 
-    .navin {
-        width: 225px;
-        height: 225px;
-    }
+  #portfolio-section > h2 {
+    font-size: 45px;
+  }
 
-    #portfolio-section > h2 {
-        font-size: 45px;
-    }
+  #bio-section > p {
+    line-height: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 
-    #bio-section > p {
-        line-height: 25px;
-        margin-left: 15px;
-        margin-right: 15px;
-    }
+  .image {
+    border: 1px ridge lightblue;
+    width: 475px;
+    height: 350px;
+  }
 
-    
-    .image {
-        border: 4px solid lightblue;
-        width: 475px;
-        height: 350px;
-    }
+  .contact-logo {
+    width: 35px;
+    height: 35px;
+  }
 
-    .contact-logo {
-        width: 35px;
-        height: 35px;
-    }
-
-    ul > li {
-        line-height: 25px;
-    }
+  ul > li {
+    line-height: 25px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-    
-    .nav,
-    footer {
-        padding: 1% 0;
-    }
-    
-    .headline > h1 {
-        font-size: 45px;
-        line-height: 70px;
-    }
+  .nav,
+  footer {
+    padding: 1% 0;
+  }
 
-    #bio-section > p {
-        font-size: 20px;
-        line-height: 28px;
-        margin-right: 20px;
-        margin-left: 20px;
-    }
+  .headline > h1 {
+    font-size: 45px;
+    line-height: 70px;
+  }
 
-    #portfolio-section > h2 {
-        font-size: 48px;
-    }
+  #bio-section > p {
+    font-size: 20px;
+    line-height: 28px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
 
-    ul > li {
-        font-size: 17px;
-        text-align:start;
-        line-height: 25px;
-    }
+  #portfolio-section > h2 {
+    font-size: 48px;
+  }
 
-    #toggle,
-    label {
-        display: none;
-    }
+  ul > li {
+    font-size: 17px;
+    text-align: start;
+    line-height: 25px;
+  }
 
-    .menu {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-    }
-    .menu a {
-        display: inline;
-        font-size: 16px;
-        text-decoration: none;
-        margin: 0 10px;
-        color: lightblue;
-    }
-    
-   
-    .contact-logo {
-        width: 45px;
-        height: 45px;
-    }
+  #toggle,
+  label {
+    display: none;
+  }
 
-    .image {
-        border: 5px solid lightblue;
-        width: 750px;
-        height: 500px;
-    }
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .menu a {
+    display: inline;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 0 10px;
+    color: lightblue;
+  }
+
+  .contact-logo {
+    width: 45px;
+    height: 45px;
+  }
+
+  .image {
+    border: 1px ridge lightblue;
+    width: 750px;
+    height: 500px;
+  }
 }
