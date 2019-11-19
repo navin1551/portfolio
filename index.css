@@ -49,6 +49,11 @@ footer {
   color: lightblue;
 }
 
+.menu a:hover {
+  color: yellow;
+  opacity: 0.8;
+}
+
 #toggle:checked + .menu {
   display: block;
 }
